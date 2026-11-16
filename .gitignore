@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# macOS
+.DS_Store
+
+# Build artifacts
+build/
+
+# ESP-IDF backup configs
+sdkconfig.old
